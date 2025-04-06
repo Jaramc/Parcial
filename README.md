@@ -1,33 +1,33 @@
-# 📱 Aplicación de Tareas con React Native
+# 📱 To-Do App with React Native
 
-## Descripción del Proyecto
-Este proyecto fue desarrollado como parte del parcial de la asignatura de Desarrollo de Aplicaciones Móviles. Consiste en una aplicación de lista de tareas (To-Do) que implementa autenticación de usuarios y almacenamiento local de datos. El objetivo principal era demostrar la comprensión de los conceptos fundamentales de React Native vistos en clase.
+## Project Description
+This project was developed as part of the mobile app development course exam. It consists of a to-do list application that implements user authentication and local data storage. The main objective was to demonstrate the understanding of the fundamental React Native concepts taught in class.
 
-## 🛠️ Tecnologías y Dependencias Utilizadas
-- **React Native**: Framework para desarrollo de aplicaciones móviles
-- **Expo**: Plataforma para facilitar el desarrollo de React Native
-- **Firebase**: Para la autenticación de usuarios
+## 🛠️ Technologies and Dependencies Used
+- **React Native**: Framework for mobile application development
+- **Expo**: Platform that facilitates React Native development
+- **Firebase**: For user authentication
   - firebase/app
   - firebase/auth
-- **AsyncStorage**: Para almacenamiento local de datos
+- **AsyncStorage**: For local data storage
   - @react-native-async-storage/async-storage
-- **React Navigation**: Para la navegación entre pantallas
+- **React Navigation**: For navigation between screens
   - @react-navigation/native
   - @react-navigation/stack
   - react-native-screens
   - react-native-safe-area-context
   - react-native-gesture-handler
-- **Expo Vector Icons**: Para los íconos de la aplicación
+- **Expo Vector Icons**: For the application's icons
   - @expo/vector-icons
 
-### Instalación de Dependencias
+### Installing Dependencies
 ```bash
-# Instalación de dependencias principales
+# Installing main dependencies
 npm install expo firebase @react-native-async-storage/async-storage
 
-# Instalación de React Navigation y dependencias relacionadas
+# Installing React Navigation and related dependencies
 npm install @react-navigation/native @react-navigation/stack
 npm install react-native-screens react-native-safe-area-context
 npm install react-native-gesture-handler
 
-# Expo Vector Icons viene incluido con Expo
+# Expo Vector Icons comes included with Expo
