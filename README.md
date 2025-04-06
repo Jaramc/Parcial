@@ -7,9 +7,6 @@ Para instalar y ejecutar este proyecto:
 3. Configurar el proyecto en Firebase y actualizar la configuración en `src/api/firebase.js`
 4. Ejecutar `expo start` para iniciar la aplicación
 
-## 📱 Capturas de Pantalla
-*Nota: Se incluirán capturas de pantalla en la presentación del parcial*
-
 ## 💡 Conceptos Aplicados
 Durante el desarrollo de este parcial, se aplicaron los siguientes conceptos vistos en clase:
 
