@@ -1,40 +1,33 @@
+# 📱 Aplicación de Tareas con React Native
 
-## 🚀 Instalación y Ejecución
-Para instalar y ejecutar este proyecto:
+## Descripción del Proyecto
+Este proyecto fue desarrollado como parte del parcial de la asignatura de Desarrollo de Aplicaciones Móviles. Consiste en una aplicación de lista de tareas (To-Do) que implementa autenticación de usuarios y almacenamiento local de datos. El objetivo principal era demostrar la comprensión de los conceptos fundamentales de React Native vistos en clase.
 
-1. Clonar este repositorio
-2. Instalar las dependencias con `npm install`
-3. Configurar el proyecto en Firebase y actualizar la configuración en `src/api/firebase.js`
-4. Ejecutar `expo start` para iniciar la aplicación
+## 🛠️ Tecnologías y Dependencias Utilizadas
+- **React Native**: Framework para desarrollo de aplicaciones móviles
+- **Expo**: Plataforma para facilitar el desarrollo de React Native
+- **Firebase**: Para la autenticación de usuarios
+  - firebase/app
+  - firebase/auth
+- **AsyncStorage**: Para almacenamiento local de datos
+  - @react-native-async-storage/async-storage
+- **React Navigation**: Para la navegación entre pantallas
+  - @react-navigation/native
+  - @react-navigation/stack
+  - react-native-screens
+  - react-native-safe-area-context
+  - react-native-gesture-handler
+- **Expo Vector Icons**: Para los íconos de la aplicación
+  - @expo/vector-icons
 
-## 💡 Conceptos Aplicados
-Durante el desarrollo de este parcial, se aplicaron los siguientes conceptos vistos en clase:
+### Instalación de Dependencias
+```bash
+# Instalación de dependencias principales
+npm install expo firebase @react-native-async-storage/async-storage
 
-- **Autenticación con Firebase**: Implementación de registro e inicio de sesión.
-- **Contextos en React**: Uso del Context API para manejar el estado global.
-- **AsyncStorage**: Almacenamiento local de datos en el dispositivo.
-- **Navegación**: Implementación de navegación entre pantallas y protección de rutas.
-- **Estructura de Proyectos**: Organización modular del código siguiendo las prácticas recomendadas.
+# Instalación de React Navigation y dependencias relacionadas
+npm install @react-navigation/native @react-navigation/stack
+npm install react-native-screens react-native-safe-area-context
+npm install react-native-gesture-handler
 
-## 🔄 Desarrollo del Parcial
-El desarrollo del parcial siguió las etapas recomendadas en clase:
-
-1. Configuración inicial del proyecto y Firebase
-2. Implementación de la autenticación de usuarios
-3. Desarrollo de la funcionalidad de tareas
-4. Implementación del almacenamiento local
-5. Mejoras en la interfaz de usuario
-
-Durante el desarrollo, enfrenté algunos desafíos técnicos como problemas con la navegación después del login y errores en las importaciones debido a nombres incorrectos de carpetas, pero logré resolverlos aplicando los conocimientos adquiridos en clase.
-
-## 🎨 Sistema de Colores
-Siguiendo las indicaciones del profesor, implementé un sistema de colores centralizado para mantener la consistencia visual en toda la aplicación:
-
-```javascript
-// Ejemplo de colors.js
-export default {
-  principal: '#4a6da7',
-  variante1: '#3a5d97',
-  variante2: '#5a7db7',
-  // ... más colores
-}
+# Expo Vector Icons viene incluido con Expo
